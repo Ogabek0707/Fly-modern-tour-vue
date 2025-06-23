@@ -1,0 +1,80 @@
+{
+    "header": {
+      "home": "Home",
+      "about": "About",
+      "tours": "Tours",
+      "contact": "Contact Us"
+    },
+    "banner": {
+      "title": "ARE YOU LOOKING TO TRAVEL?",
+      "subtitle": "Make your travel dreams a reality: plan, explore and create unforgettable memories.",
+      "button": "Discover More",
+      "form": {
+        "name": "Your name...",
+        "address": "Type Location...",
+        "button": "Make a reservation"
+      }
+    },
+    "popular-places": {
+      "title": "Our Popular Destinations",
+      "subtitle": "Discover the beauty, culture, and experiences that make these destinations truly special.",
+      "istanbul": {
+        "title": "Istanbul",
+        "text": "76 booked"
+      },
+      "sharm": {
+        "title": "Sharm El-Sheykh",
+        "text": "96 booked"
+      },
+      "tailand": {
+        "title": "Thailand",
+        "text": "55 booked"
+      },
+      "argentina": {
+        "title": "Argentina",
+        "text": "66 booked"
+      },
+      "dubai": {
+        "title": "Dubai",
+        "text": "76 booked"
+      },
+      "saudi": {
+        "title": "Saudi",
+        "text": "76 booked"
+      }
+    },
+    "visit-country": {
+      "title": "Explore destinations easily",
+      "train": {
+        "title": "Cheap Railway Tickets With Us",
+        "title2": "Whole world",
+        "text": "Embark on a railway adventure and explore destinations worldwide. Whether it's the picturesque landscapes, bustling cities, or cultural gems, our rail services offer a unique and comfortable way to traverse the globe. Immerse yourself in the beauty of different cultures, all accessible through our extensive railway network. ."
+      },
+      "plane": {
+        "title": "Discover Exciting Air Travel Deals",
+        "title2": "Global Destinations",
+        "text": "Embark on an airborne adventure and explore destinations worldwide. Whether it's the breathtaking landscapes, vibrant cities, or cultural treasures, our airline services provide a convenient and exhilarating way to navigate the globe. Immerse yourself in the richness of diverse cultures, all easily accessible through our extensive air travel network. ."
+      },
+      "dubai": {
+        "title": "Dubai",
+        "title2": "United Arab Emirates",
+        "text": "Dubai is a city and emirate in the United Arab Emirates, known for its luxury shopping, cutting-edge architecture, and vibrant nightlife. The Burj Khalifa, an 830-meter-tall tower, dominates the city's skyscrapers. At its base is the Dubai Fountain, whose jets and lights are adjusted to music. On artificial islands in the sea is the Atlantis, Palm, hotel, with a water park and a marine animal park."
+      },
+      "antalya": {
+        "title": "Antalya",
+        "title2": "Türkiye",
+        "text": "Antalya is the fastest growing city in Turkey, and tourists from all over the world are discovering its fantastic combination of gorgeous beaches and traditional Turkish culture. Children will love the Beach Park, home to Aqualand (a rollercoaster lover's dream) and the Dolphinarium (home to dolphins, sea lions and white whales). Be sure to explore the old city center and see Hadrian's Gate."
+      },
+      "sharm": {
+        "title": "Sharm El Sheikh",
+        "title2": "Egypt",
+        "text": "Sharm El Sheikh is the hub of tourism on the Sinai Peninsula and home to some of the best diving in the world. Especially the underwater wonders of Ras Mohammed National Park, which have taken Sharm to a whole new level. The city has dive sites and shipwrecks that attract advanced and amateur divers from all over the world to discover the unique marine life in the depths of the Red Sea."
+      },
+      "istanbul": {
+        "title": "Istanbul",
+        "title2": "Türkiye",
+        "text": "Istanbul is the most populous city in Turkey and its cultural, economic and historical center. Situated in the northwestern part of Turkey, divided by the Bosphorus into European and Asian sides, which connects the Sea of ​​Marmara and the Black Sea. This city is the only one in the world that is located on two continents."
+      }
+    }
+  }
+  

@@ -1,0 +1,80 @@
+{
+    "header": {
+      "home": "Asosiy sahifa",
+      "about": "Biz haqimizda",
+      "tours": "Turlar",
+      "contact": "Kontaktlar"
+    },
+    "banner": {
+      "title": "Sayohat qilishni xohlaysizmi?",
+      "subtitle": "Sayohat orzularingizni haqiqatga aylantiring: rejalashtiring, kashf qiling va unutilmas xotiralar yarating.",
+      "button": "Ko'proq bilish",
+      "form": {
+        "name": "Ismingiz...",
+        "address": "Manzilingiz...",
+        "button": "Joy Band Qilish"
+      }
+    },
+    "popular-places": {
+      "title": "Bizning mashhur manzillarimiz",
+      "subtitle": "Ushbu yo'nalishlar bilan haqiqatan ham o'ziga xos qiladigan go'zallik, madaniyat va tajribalarni kashf eting.",
+      "istanbul": {
+        "title": "Istanbul",
+        "text": "76 band qilingan"
+      },
+      "sharm": {
+        "title": "Sharm El-Sheykh",
+        "text": "96 band qilingan"
+      },
+      "tailand": {
+        "title": "Tailand",
+        "text": "55 band qilingan"
+      },
+      "argentina": {
+        "title": "Argentina",
+        "text": "66 band qilingan"
+      },
+      "dubai": {
+        "title": "Dubai",
+        "text": "76 band qilingan"
+      },
+      "saudi": {
+        "title": "Saudiya Arabistoni",
+        "text": "76 band qilingan"
+      }
+    },
+    "visit-country": {
+      "title": "Maqsadlarni osongina o'rganing",
+      "train": {
+        "title": "Biz bilan arzon temir yo'l chiptalari",
+        "title2": "Butun dunyo",
+        "text": "Temir yo'l sarguzashtiga kiring va kashf qiling dunyo bo'ylab yo'nalishlar. Bu go'zal bo'ladimi landshaftlar, gavjum shaharlar yoki madaniy toshlar, bizning temir yo'l xizmatlari noyob va qulay yo'lni taklif qiladi yer sharini aylanib o'tish. Go'zallikka sho'ng'ing turli madaniyatlar, barcha bizning orqali kirish mumkin keng temir yo'l tarmog'i. ."
+      },
+      "plane": {
+        "title": "Havo sayohatlari uchun qiziqarli takliflarni kashf eting",
+        "title2": "Global manzillar",
+        "text": "Havodagi sarguzashtga boring va kashf qiling dunyo bo'ylab yo'nalishlar. Bu bo'ladimi hayajonli landshaftlar, jonli shaharlar yoki madaniy xazinalar, bizning aviakompaniya xizmatlari qulaylikni ta'minlaydi va dunyo bo'ylab sayohat qilishning ajoyib usuli. Suvga cho'mish o'zingizni turli madaniyatlar boyligida, barcha bizning keng qamrovli havo sayohatimiz orqali osongina kirish mumkin tarmoq. ."
+      },
+      "dubai": {
+        "title": "Dubay",
+        "title2": "Birlashgan Arab Amirliklari",
+        "text": "Dubay — Birlashgan Arabistondagi shahar va amirlik Hashamatli xaridlari bilan mashhur Emirates zamonaviy arxitektura va jonli tungi hayot. 830 metr balandlikdagi Burj Xalifa minorasi hukmronlik qiladi shaharning osmono'par binolari. Uning bazasida Dubay joylashgan Jetlari va chiroqlari moslashtirilgan favvora musiqa. Dengizdagi sun'iy orollarda Atlantis, Palm, mehmonxona, suv parki va a dengiz hayvonlari parki."
+      },
+      "antalya": {
+        "title": "Antalya",
+        "title2": "Turkiya",
+        "text": "Antaliya Turkiyaning eng tez rivojlanayotgan shahri va Butun dunyodan sayyohlar uni kashf qilmoqdalar ajoyib plyajlarning ajoyib kombinatsiyasi va an'anaviy turk madaniyati. Bolalar yaxshi ko'radilar Beach Park, Aqualand uyi (rollercoaster sevgilining orzusi) va Delfinarium (uy delfinlar, dengiz sherlari va oq kitlar). Ishonch hosil qiling eski shahar markazini o'rganing va Hadrian darvozasini ko'ring."
+      },
+      "sharm": {
+        "title": "Sharm al-Shayx",
+        "title2": "Misr",
+        "text": "Sharm al-Shayx - Sinaydagi turizm markazi Yarim orol va eng yaxshi sho'ng'in uchun uy dunyo. Ayniqsa, Rasning suv osti mo''jizalari Sharmni olib ketgan Muhammad milliy bog'i butunlay yangi daraja. Shaharda sho'ng'in joylari va ilg'or va havaskor g'avvoslarni jalb qiladigan kema halokatlari noyob kashf qilish uchun butun dunyodan Qizil dengiz tubidagi dengiz hayoti."
+      },
+      "istanbul": {
+        "title": "Istanbul",
+        "title2": "Turkiya",
+        "text": "Istanbul Turkiya va uning aholisi eng gavjum shahar madaniy, iqtisodiy va tarixiy markaz. Joylashgan tomonidan boʻlingan Turkiyaning shimoli-gʻarbiy qismida Bosfor boʻgʻozi Yevropa va Osiyo tomonlariga, qaysi Marmara va Qora dengizni bog'laydi. Bu shahar dunyodagi yagona shahar ikki qit'ada joylashgan."
+      }
+    }
+  }
+  
