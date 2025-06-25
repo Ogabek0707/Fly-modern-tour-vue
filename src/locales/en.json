@@ -130,6 +130,41 @@
           "text": "Experience peace of mind with our 24/7 customer support. Whether you have questions during the planning process or need assistance while traveling, our team is always here to support you."
         }
       }
+    },
+    "parcing": {
+      "title": "Exclusive Offers",
+      "title2": "Unlock Your Dream Vacation",
+      "button": "Get a Quote",
+      "standart": {
+        "title": "Essential Explorer",
+        "title2": "Contact us",
+        "title3": "/customized",
+        "title4": "Tailored Itinerary Planning",
+        "title5": "Personalized Destination Recommendations",
+        "title6": "Expert Travel Consultation",
+        "title7": "24/7 Dedicated Support",
+        "title8": "Flexible Pricing"
+      },
+      "premuim": {
+        "title": "Premium Voyager",
+        "title2": "Contact us",
+        "title3": "/customized",
+        "title4": "Luxury Accommodations",
+        "title5": "Exclusive Experiences",
+        "title6": "Private Guided Tours",
+        "title7": "Customized Travel Packages",
+        "title8": "Negotiable Pricing"
+      },
+      "vip": {
+        "title": "Ultimate Wanderer",
+        "title2": "Contact us",
+        "title3": "/customized",
+        "title4": "VIP Travel Concierge",
+        "title5": "Bespoke Luxury Experiences",
+        "title6": "Exclusive Access to Events",
+        "title7": "Flexible and Negotiable Prices",
+        "title8": "Lifetime Travel Membership"
+      }
     }
   }
   

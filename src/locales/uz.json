@@ -130,6 +130,41 @@
           "text": "24/7 mijozlarni qo'llab-quvvatlash xizmati bilan xotirjamlikni his qiling. Rejalashtirish jarayonida savollaringiz bo'ladimi yoki sayohat paytida yordam kerakmi, bizning jamoamiz sizni qo'llab-quvvatlash uchun doimo shu yerda."
         }
       }
+    },
+    "parcing": {
+      "title": "Maxsus Takliflar",
+      "title2": "O'zingiz orzu qilgan ta'tilni tanlang",
+      "button": "Bog'lanish",
+      "standart": {
+        "title": "Asosiy Sayohatchi",
+        "title2": "Biz bilan bog'laning",
+        "title3": "/individual",
+        "title4": "Moslashtirilgan Sayohat Rejasi",
+        "title5": "Shakllantirilgan Manzil Qo'llanmalar",
+        "title6": "Mutaxassis Bilan Sayohat Muhokamasi",
+        "title7": "24/7 Xizmat Ko'rsatish",
+        "title8": "Moslashuvchan Narxlar"
+      },
+      "premuim": {
+        "title": "Premium Sayohatchi",
+        "title2": "Biz bilan bog'laning",
+        "title3": "/individual",
+        "title4": "Luks Mekhmonxona Joylashuvi",
+        "title5": "Maxsus Tajribalar",
+        "title6": "Maxsus Yo'lboshlovchi",
+        "title7": "Moslashtirilgan Sayohat Paketlari",
+        "title8": "Muzokaralar uchun Narxlar"
+      },
+      "vip": {
+        "title": "Maksimal Sayohatchi",
+        "title2": "Biz bilan bog'laning",
+        "title3": "/individual",
+        "title4": "VIP Sayohat Dasturi",
+        "title5": "Maxsus Lyuks Tajribalar",
+        "title6": "Moslashuvchan va Muzokaralar uchun Narxlar",
+        "title7": "24/7 Xizmat Ko'rsatish",
+        "title8": "Ajoyib Taassurotlar"
+      }
     }
   }
   

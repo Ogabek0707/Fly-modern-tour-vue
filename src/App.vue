@@ -342,18 +342,104 @@
       </div>
     </section>
 
-      <section id="video" class="mt-[-500px] mb-[-600px]">
+    <section id="video" class="mt-[-500px] mb-[-500px]">
       <!-- <div class="video-overlay"></div> -->
       <div class="video">
         <div>
           <!-- <h1 style="color: white;">Our one of the best destinations</h1> -->
           <!-- <h2>Sed et risus ac sapien congue mattis.</h2> -->
-          <a href="http://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
+          <!-- <a href="http://youtube.com" target="_blank"><i class="fa fa-play"></i></a> -->
         </div>
       </div>
       <video autoplay="" loop="" muted="" class="w-full rotate-270">
         <source src="./assets/Flying_Over_Tashkent_at_Night_4K_Drone_Tour_of_Uzbekistan_s.mp4" type="video/mp4">
       </video>
+    </section>
+
+    <section id="Parcing-tables" class="box-border">
+      <div class="w-full px-[10%]">
+        <div class="text-center">
+          <h1 class="text-[17px] text-[#e1ac0c]">{{ t('parcing.title') }}</h1>
+          <h2 class="mt-[14px] text-[23px] tracking-[0.5px]">{{ t('parcing.title2') }}</h2>
+        </div>
+        <div class="flex gap-[30px] mt-[40px]">
+          <div class="w-[43%]">
+            <div class="w-full rounded-tl-[10px] rounded-tr-[10px] bg-[#e1ac0c] py-[30px] px-[35px] text-white text-center">
+              <h1 class="text-[19px] tracking-[0.5px]">{{ t('parcing.standart.title') }}</h1>
+              <h1 class="text-[32px] leading-[1.1] font-bold tracking-[0.5px] mt-[17px] mb-[10px]">{{ t('parcing.standart.title2') }}</h1>
+              <h1 class="text-[14px] tracking-[0.5px]">{{ t('parcing.standart.title3') }}</h1>
+            </div>
+            <div class="w-full bg-[#EEE] rounded-bl-[10px] rounded-br-[10px] py-[40px] text-center">
+              <div class="">
+                <h1 class="mb-[20px]"><a href="#" class="text-[14px] font-semibold transition-all hover:text-[#e1ac0c]">{{ t('parcing.standart.title4') }}</a></h1>
+                <h1 class="mb-[20px]"><a href="#" class="text-[14px] font-semibold transition-all hover:text-[#e1ac0c]">{{ t('parcing.standart.title5') }}</a></h1>
+                <h1 class="mb-[20px]"><a href="#" class="text-[14px] font-semibold transition-all hover:text-[#e1ac0c]">{{ t('parcing.standart.title6') }}</a></h1>
+                <h1 class="mb-[20px]"><a href="#" class="text-[14px] font-semibold transition-all hover:text-[#e1ac0c]">{{ t('parcing.standart.title7') }}</a></h1>
+                <h1 class="mb-[20px]"><a href="#" class="text-[14px] font-semibold transition-all hover:text-[#e1ac0c]">{{ t('parcing.standart.title8') }}</a></h1>
+              </div>
+              <div class="mt-[35px] cursor-pointer"><a href="tel:+998 93 893 67 07"
+                class="bg-[#e1ac0c] text-white text-[15px] border-[2px] border-[#e1ac0c] px-[16px] py-[14px] hover:bg-transparent hover:text-[#e1ac0c]">{{
+                t('services.planid.button') }}</a></div>
+            </div>
+          </div>
+          <div class="w-[43%]">
+            <div class="w-full rounded-tl-[10px] rounded-tr-[10px] bg-[#e1ac0c] py-[30px] px-[35px] text-white text-center">
+              <h1 class="text-[19px] tracking-[0.5px]">{{ t('parcing.premuim.title') }}</h1>
+              <h1 class="text-[32px] leading-[1.1] font-bold tracking-[0.5px] mt-[17px] mb-[10px]">{{ t('parcing.premuim.title2') }}</h1>
+              <h1 class="text-[14px] tracking-[0.5px]">{{ t('parcing.premuim.title3') }}</h1>
+            </div>
+            <div class="w-full bg-[#EEE] rounded-bl-[10px] rounded-br-[10px] py-[40px] text-center">
+              <div class="">
+                <h1 class="mb-[20px]"><a href="#" class="text-[14px] font-semibold transition-all hover:text-[#e1ac0c]">{{ t('parcing.premuim.title4') }}</a></h1>
+                <h1 class="mb-[20px]"><a href="#" class="text-[14px] font-semibold transition-all hover:text-[#e1ac0c]">{{ t('parcing.premuim.title5') }}</a></h1>
+                <h1 class="mb-[20px]"><a href="#" class="text-[14px] font-semibold transition-all hover:text-[#e1ac0c]">{{ t('parcing.premuim.title6') }}</a></h1>
+                <h1 class="mb-[20px]"><a href="#" class="text-[14px] font-semibold transition-all hover:text-[#e1ac0c]">{{ t('parcing.premuim.title7') }}</a></h1>
+                <h1 class="mb-[20px]"><a href="#" class="text-[14px] font-semibold transition-all hover:text-[#e1ac0c]">{{ t('parcing.premuim.title8') }}</a></h1>
+              </div>
+              <div class="mt-[35px] cursor-pointer"><a href="tel:+998 93 893 67 07"
+                class="bg-[#e1ac0c] text-white text-[15px] border-[2px] border-[#e1ac0c] px-[16px] py-[14px] hover:bg-transparent hover:text-[#e1ac0c]">{{
+                t('services.planid.button') }}</a></div>
+            </div>
+          </div>
+          <div class="w-[43%]">
+            <div class="w-full rounded-tl-[10px] rounded-tr-[10px] bg-[#e1ac0c] py-[30px] px-[35px] text-white text-center">
+              <h1 class="text-[19px] tracking-[0.5px]">{{ t('parcing.vip.title') }}</h1>
+              <h1 class="text-[32px] leading-[1.1] font-bold tracking-[0.5px] mt-[17px] mb-[10px]">{{ t('parcing.vip.title2') }}</h1>
+              <h1 class="text-[14px] tracking-[0.5px]">{{ t('parcing.vip.title3') }}</h1>
+            </div>
+            <div class="w-full bg-[#EEE] rounded-bl-[10px] rounded-br-[10px] py-[40px] text-center">
+              <div class="">
+                <h1 class="mb-[20px]"><a href="#" class="text-[14px] font-semibold transition-all hover:text-[#e1ac0c]">{{ t('parcing.vip.title4') }}</a></h1>
+                <h1 class="mb-[20px]"><a href="#" class="text-[14px] font-semibold transition-all hover:text-[#e1ac0c]">{{ t('parcing.vip.title5') }}</a></h1>
+                <h1 class="mb-[20px]"><a href="#" class="text-[14px] font-semibold transition-all hover:text-[#e1ac0c]">{{ t('parcing.vip.title6') }}</a></h1>
+                <h1 class="mb-[20px]"><a href="#" class="text-[14px] font-semibold transition-all hover:text-[#e1ac0c]">{{ t('parcing.vip.title8') }}</a></h1>
+              </div>
+              <div class="mt-[35px] cursor-pointer"><a href="tel:+998 93 893 67 07"
+                class="bg-[#e1ac0c] text-white text-[15px] border-[2px] border-[#e1ac0c] px-[16px] py-[14px] hover:bg-transparent hover:text-[#e1ac0c]">{{
+                t('services.planid.button') }}</a></div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="map">
+      <GMapMap
+        :center="{ lat: 41.2995, lng: 69.2401 }"
+        :zoom="12"
+        style="width: 100%; height: 400px"
+      >
+        <GMapMarker :position="{ lat: 41.2995, lng: 69.2401 }" />
+      </GMapMap>
+      <!-- <GoogleMap
+        api-key="YOUR_GOOGLE_MAPS_API_KEY"
+        style="width: 100%; height: 500px"
+        :center="center"
+        :zoom="15"
+        >
+          <Marker :options="{ position: center }" />
+        </GoogleMap> -->
     </section>
   </div>
 </template>
@@ -365,6 +451,10 @@ import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Pagination } from 'swiper/modules'
 import SvgIcon from '@jamescoyle/vue-icon'
 import { mdiStar } from '@mdi/js'
+
+import { GoogleMap, Marker } from 'vue3-google-map'
+
+const center = { lat: 40.689247, lng: -74.044502 }
 
 import 'swiper/css'
 import 'swiper/css/pagination'
