@@ -277,7 +277,7 @@
       </div>
     </section>
 
-    <section id="Services" class="w-full px-[10%] pt-[80px]">
+    <section id="Services" class="w-full px-[10%] pt-[80px] box-border">
       <div class="text-center">
         <h1 class="text-[17px] text-[#e1ac0c]">{{ t('services.title') }}</h1>
         <h2 class="text-[23px] mt-[14px] tracking-[0.5px]">{{ t('services.title2') }}</h2>
@@ -342,7 +342,7 @@
       </div>
     </section>
 
-      <section id="video" class="mt-[-200px] mb-[-600px]">
+      <section id="video" class="mt-[-500px] mb-[-600px]">
       <!-- <div class="video-overlay"></div> -->
       <div class="video">
         <div>
@@ -351,7 +351,7 @@
           <a href="http://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
         </div>
       </div>
-      <video autoplay="" loop="" muted="" class="w-full rotate-270 h-[1200px]">
+      <video autoplay="" loop="" muted="" class="w-full rotate-270">
         <source src="./assets/Flying_Over_Tashkent_at_Night_4K_Drone_Tour_of_Uzbekistan_s.mp4" type="video/mp4">
       </video>
     </section>
