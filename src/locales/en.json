@@ -75,6 +75,61 @@
         "title2": "Türkiye",
         "text": "Istanbul is the most populous city in Turkey and its cultural, economic and historical center. Situated in the northwestern part of Turkey, divided by the Bosphorus into European and Asian sides, which connects the Sea of ​​Marmara and the Black Sea. This city is the only one in the world that is located on two continents."
       }
+    },
+    "featured-places": {
+      "title": "Explore Our Destinations",
+      "title2": "Discover Dubai, Turkey, and Sharm El Sheikh",
+      "button": "LEARN MORE",
+      "button2": "BOOK NOW",
+
+      "dubai": {
+        "title": "Experience Luxury in Dubai",
+        "title2": "Cityscape and Beyond",
+        "text": "Indulge in the opulence of Dubai's skyscrapers, luxury shopping, and desert adventures. Explore a city where tradition meets modernity, offering an extraordinary blend of culture and extravagance."
+      },
+      "turkey": {
+        "title": "Discover the Rich Culture of Turkey",
+        "title2": "Historical Wonders and Breathtaking Landscapes",
+        "text": "Immerse yourself in Turkey's captivating history, from ancient ruins to vibrant markets. Enjoy the scenic landscapes, delicious cuisine, and warm hospitality that make Turkey a must-visit destination."
+      },
+      "sharm": {
+        "title": "Relax in Sharm El Sheikh's Paradise",
+        "title2": "Sun, Sea, and Serenity",
+        "text": "Escape to the stunning beaches and coral reefs of Sharm El Sheikh. Dive into the crystal-clear waters, unwind in luxurious resorts, and experience the ultimate relaxation in this tropical paradise."
+      }
+    },
+    "services": {
+      "title": "Our Services",
+      "title2": "Explore with Confidence",
+      "travel": {
+        "title": "Curated Travel Experiences",
+        "text": "Discover meticulously designed travel itineraries, ensuring high-quality experiences tailored to your preferences. Our expertly crafted packages guarantee unforgettable adventures."
+      },
+      "route": {
+        "title": "Personalized Itineraries",
+        "text": "Enjoy fully customizable travel plans that cater to your unique interests and desires. We specialize in creating journeys that reflect your individual preferences and travel aspirations."
+      },
+      "direction": {
+        "title": "Expertly Crafted Travel Packages",
+        "text": "Our packages provide a seamless blend of comfort, adventure, and cultural immersion, ensuring an exceptional travel experience."
+      },
+      "planid": {
+        "title": "Plan Your Dream Getaway",
+        "text": "Let us take care of every detail as you embark on your dream journey. Whether it's a cultural escape, an adventurous expedition, or a relaxing beach retreat, we ensure a hassle-free and unforgettable travel experience.",
+        "button": "Start Planning",
+        "guides": {
+          "title": "Expert Guidance",
+          "text": "Receive guidance from our travel experts who are passionate about creating the perfect itinerary for you. From destination suggestions to travel tips, we are here to make your journey extraordinary."
+        },
+        "flexible-services": {
+          "title": "Customizable Options",
+          "text": "Tailor your travel experience with customizable options, ensuring every aspect of your journey aligns with your preferences. Choose accommodations, activities, and more to suit your unique style."
+        },
+        "support": {
+          "title": "24/7 Support",
+          "text": "Experience peace of mind with our 24/7 customer support. Whether you have questions during the planning process or need assistance while traveling, our team is always here to support you."
+        }
+      }
     }
   }
   
