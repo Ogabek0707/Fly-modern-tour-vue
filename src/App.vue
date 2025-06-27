@@ -444,6 +444,9 @@
         >
           <Marker :options="{ position: center }" />
         </GoogleMap> -->
+        <div class="w-full my-[80px]">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47927.13767881944!2d69.18605544863277!3d41.34265639999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8d0a3eff6793%3A0x374f8cd599c1c8fa!2sYagona%20Darcha%20Shaykhontokhur%20tumani!5e0!3m2!1sen!2s!4v1723608225085!5m2!1sen!2s" width="100%" height="500px" frameborder="0" style="border: 0" allowfullscreen=""></iframe>
+        </div>
     </section>
 
     <section id="Bron" class="mt-[60px]">
