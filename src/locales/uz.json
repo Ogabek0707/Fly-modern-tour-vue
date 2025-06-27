@@ -165,6 +165,49 @@
         "title7": "24/7 Xizmat Ko'rsatish",
         "title8": "Ajoyib Taassurotlar"
       }
+    },
+    "bron": {
+      "title": "Biz bilan o'z joyingizni band qiling!",
+      "title2": "Ta'tilingizni biz bilan o'tkazing",
+      "direktor": "Direktor: Og'abek Ibragimov",
+      "number": "+998938936707",
+      "button": "Joy Band Qilish"
+    },
+    "modal": {
+      "button": "Joy Band Qilish",
+      "tittle": "Joy Band Qilish",
+      "title2": "Keling, keyingi sayohatingizni rejalashtiramiz",
+      "name": "Ismingiz...",
+      "tel-number": "Telefon raqamingiz...",
+      "email": "Email manzilingiz...", 
+      "textarea": "Sayohat rejalaringiz haqida ayting...",
+      "title3": "Biz bilan bog'laning", 
+      "title4": "Sizning sayohatdagi hamrohingiz",
+      "text": "Dam olish uchun sayohatni biz bilan rejalashtiring. Bizning jamoa sizga yordam  berishga tayyor.", 
+      "tel-number2": "Telefon raqam: ",
+      "email2": "Email:",
+      "address": "Manzil:",
+      "address3": "Shayxontohur tumani, Jangoh mavzesi, 1-etaj 37-xonadon, Toshkent shahri"
+    },
+    "footer": {
+      "title": "Biz bilan dunyoni zabt eting. Sayohat tashkil qilishda eng yaxshi hamkoringiz",
+      "card": {
+        "title": "Foydali Havolalar",
+
+        "title1": "Blog",
+        "title2": "Biz bilan Aloqa",
+        "title3": "Biz Haqimizda",
+        "title4": "Maxfiylik Siyosati"
+      },
+      "card2": {
+        "title": "Aloqa Ma'lumoti",
+
+        "text": "Keyingi sayohatingizga tayyor bo'lib, shaxsiy sayohat yordam va so'rovnoma uchun biz bilan bog'laning.",
+        "tel-number": "Telefon:",
+        "email": "Email:",
+        "address": "Manzil:",
+        "address2": "Shayxontohur tumani, Jangoh mavzesi, 1-etaj 37-xonadon, Toshkent shahri"
+      }
     }
   }
   

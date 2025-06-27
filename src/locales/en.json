@@ -165,6 +165,49 @@
         "title7": "Flexible and Negotiable Prices",
         "title8": "Lifetime Travel Membership"
       }
+    },
+    "bron": {
+      "title": "Make a reservation with us",
+      "title2": "Plan Your Journey with Us",
+      "direktor": "Director: Og'abek Ibragimov",
+      "number": "+998938936707",
+      "button": "Make a reservation"
+    },
+    "modal": {
+      "button": "Make a reservation",
+      "tittle": "Book your reservation now",
+      "title2": "Let's Plan Your Next Adventure",
+      "name": "Your name...",
+      "tel-number": "Your phone",
+      "email": "Your email...", 
+      "textarea": "Tell us about your travel plans...",
+      "title3": "Connect With Us", 
+      "title4": "Your Travel Partner",
+      "text": "Plan your dream vacation with us. Our team is ready to assist you in creating memorable travel experiences.", 
+      "tel-number2": "Phone:",
+      "email2": "Email:",
+      "address": "Address:",
+      "address2": "Shaykhontohur district, Jangoh avenue, 1nd floor, house 37, Tashkent city"
+    },
+    "footer": {
+      "title": "Explore the world with Propartnyor JS, your trusted partner in creating unforgettable journeys. We believe in delivering exceptional travel experiences that go beyond expectations.",
+      "card": {
+        "title": "Useful Links",
+
+        "title1": "Blog",
+        "title2": "Contact Us",
+        "title3": "About Us",
+        "title4": "Privacy Policy"
+      },
+      "card2": {
+        "title": "Contact Information",
+
+        "text": "Ready to embark on your next adventure? Contact us for personalized travel assistance and inquiries.",
+        "tel-number": "Phone:",
+        "email": "Email:",
+        "address": "Address:",
+        "address2": "Shaykhontohur district, Jangoh avenue, 1nd floor, house 37, Tashkent city"
+      }
     }
   }
   

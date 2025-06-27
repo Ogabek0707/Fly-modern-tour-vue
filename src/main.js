@@ -8,6 +8,8 @@ import ru from './locales/ru.json'
 import uz from './locales/uz.json'
 // import VueGoogleMaps from '@fawmi/vue-google-maps'
 // import { Vue3GoogleMap } from 'vue3-google-map'
+import veeValidatePlugins from './plugins/vee-validate'
+import VueTheMask from "vue-the-mask"
 
 import App from './App.vue'
 import router from './router'
@@ -35,4 +37,6 @@ const i18n = createI18n({
 app.use(createPinia())
 app.use(router)
 app.use(i18n)
+app.use(veeValidatePlugins)
+app.use(VueTheMask)
 app.mount('#app')

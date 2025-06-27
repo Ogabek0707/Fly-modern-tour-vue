@@ -1,28 +1,30 @@
 <template>
   <div class="w-full h-full">
-    <header class="w-full h-[120px] flex justify-around items-center">
-      <div class="w-[200px]">
+    <header class="w-full px-[10%] h-[120px] flex justify-around items-center">
+      <div id="header" class="w-[200px]">
         <img src="./assets//images/Screenshot 2025-06-21 at 21.35.40.png" alt="">
       </div>
       <nav class="mr-[-60px]">
-        <ul class="w-[691px] flex justify-between items-center text-[17px] font-bold">
-          <li class="transition-all duration-500 text-[#121212] hover:text-[#e1ac0c] cursor-pointer">{{ t('header.home')
-          }}</li>
-          <a href="#Featured-places"
-            class="transition-all duration-500 text-[#121212] hover:text-[#e1ac0c] cursor-pointer">{{
-              t('header.about') }}</a>
-          <li class="transition-all duration-500 text-[#121212] hover:text-[#e1ac0c] cursor-pointer">{{
-            t('header.tours') }}</li>
-          <li class="transition-all duration-500 text-[#121212] hover:text-[#e1ac0c] cursor-pointer">{{
-            t('header.contact') }}</li>
-          <div class="" ref="dropdownRef">
+        <ul class="text-[17px] font-bold">
+         <div id="nav" class="flex justify-around">
+          <div id="navbar" class="w-[500px] flex gap-[20px] items-center">
+            <li class="transition-all duration-500 text-[#121212] hover:text-[#e1ac0c] cursor-pointer">{{ t('header.home')
+            }}</li>
+            <a href="#Featured-places"
+              class="transition-all duration-500 text-[#121212] hover:text-[#e1ac0c] cursor-pointer">{{
+                t('header.about') }}</a>
+            <a href="#Services" class="transition-all duration-500 text-[#121212] hover:text-[#e1ac0c] cursor-pointer">{{
+              t('header.tours') }}</a>
+            <a href="#Bron" class="transition-all duration-500 text-[#121212] hover:text-[#e1ac0c] cursor-pointer">{{
+              t('header.contact') }}</a>
+          </div>
+          <div class="w-[87px]" ref="dropdownRef">
             <!-- Hozirgi til -->
             <button @click="toggleDropdown"
               class="flex items-center gap-2 px-4 py-2 border-[1.5px] border-[#e1ac0c] rounded cursor-pointer">
               <img :src="flags[lang]" alt="flag" class="w-6 h-4 rounded" />
               <span class="capitalize">{{ lang }}</span>
             </button>
-
             <!-- Dropdown -->
             <div v-show="show"
               class="absolute z-30 mt-2 w-[87.51px] bg-white rounded-lg shadow-[0_4px_12px_rgba(0,0,0,0.15)] border border-gray-200">
@@ -36,25 +38,26 @@
               </ul>
             </div>
           </div>
+         </div>
         </ul>
       </nav>
     </header>
 
     <section id="Banner" class="w-full h-[712px] bg-cover bg-center bg-no-repeat relative img flex justify-center">
-      <div class="w-[81%] flex justify-center pt-[180px]">
-        <div class="lg:w-10/13 text-start text-white">
+      <div id="form" class="w-[945px] flex justify-center pt-[180px]">
+        <div class="text-start text-white">
           <div class="h-[246px]">
             <div class="w-[80px] h-[5px] bg-[#e1ac0c] "></div>
             <h1 class="mt-5 text-[42px]">{{ t('banner.title') }}</h1>
-            <p class="mt-5 text-[22px] w-[90%]">{{ t('banner.subtitle') }}</p>
-            <button
-              class="mt-6 bg-[#e1ac0c] text-white px-6 py-3 font-semibold rounded hover:bg-[#c8960a] transition-all cursor-pointer">
+            <p class="mt-5 mb-[35px] text-[22px] w-[90%]">{{ t('banner.subtitle') }}</p>
+            <a href="#Accordion"
+              class=" bg-[#e1ac0c] text-white px-6 py-3 font-semibold rounded hover:bg-[#c8960a] transition-all cursor-pointer">
               {{ t('banner.button') }}
-            </button>
+            </a>
           </div>
 
           <!-- Forma qismi -->
-          <div class="w-full mt-[199px]">
+          <div class=" mt-[199px]">
             <div
               class="w-full bg-white text-gray-500 flex gap-2 px-4 py-4 items-center border-b-[5px] border-[#e1ac0c]">
               <input type="text" :placeholder="t('banner.form.name')"
@@ -79,7 +82,7 @@
         <p class="text-[#232323] mt-[14px] text-[23px] font-medium">{{ t('popular-places.subtitle') }}</p>
       </div>
       <div class="w-full px-[15px]">
-        <Swiper v-bind="swiperOptions" class="hmySwiper">
+        <Swiper v-bind="swiperOptions"  class="hmySwiper">
           <SwiperSlide class="relative">
             <img src="./assets/images/istanbul.png" class="w-[264px] h-[171.59px] object-cover rounded" />
             <div class="absolute bottom-[20px] left-[18px] text-white text-lg">
@@ -95,21 +98,21 @@
             </div>
           </SwiperSlide>
           <SwiperSlide class="relative">
-            <img src="./assets/images/Tailand.png" class="w-[264px] h-[171.59px] object-cover rounded" />
+            <img src="./assets/images/Tailand.png" class=" h-[171.59px] object-cover rounded" />
             <div class="absolute bottom-[20px] left-[18px] text-white text-lg">
               <h1 class="text-[19px] font-medium">{{ t('popular-places.tailand.title') }}</h1>
               <p class="text-[13px] font-light">{{ t('popular-places.tailand.text') }}</p>
             </div>
           </SwiperSlide>
           <SwiperSlide class="relative">
-            <img src="./assets/images/Argentina.png" class="w-[264px] h-[171.59px] object-cover rounded" />
+            <img src="./assets/images/Argentina.png" class="h-[171.59px] object-cover rounded" />
             <div class="absolute bottom-[20px] left-[18px] text-white text-lg">
               <h1 class="text-[19px] font-medium">{{ t('popular-places.argentina.title') }}</h1>
               <p class="text-[13px] font-light">{{ t('popular-places.argentina.text') }}</p>
             </div>
           </SwiperSlide>
           <SwiperSlide class="relative">
-            <img src="./assets/images/dubai2.png" class="w-[264px] h-[171.59px] object-cover rounded" />
+            <img src="./assets/images/dubai2.png" class=" h-[171.59px] object-cover rounded" />
             <div class="absolute bottom-[20px] left-[18px] text-white text-lg">
               <h1 class="text-[19px] font-medium">{{ t('popular-places.dubai.title') }}</h1>
               <p class="text-[13px] font-light">{{ t('popular-places.dubai.text') }}</p>
@@ -127,7 +130,7 @@
     </section>
 
     <section id="Visit-country" class="pt-[30px] mb-[30px]">
-      <div class="w-[1170px] ml-[10%]">
+      <div id="all" class="w-full px-[10%]">
         <div class="w-full pt-[20px]">
           <h1 class="text-[30px]">{{ t('visit-country.title') }}</h1>
         </div>
@@ -136,16 +139,16 @@
           <div>
             <h1 class="text-[30px] mt-[10px]">{{ t('visit-country.train.title') }}</h1>
             <h2 class="text-[14px] text-[#2c343b]">{{ t('visit-country.train.title2') }}</h2>
-            <p class="text-[13px] text-[#7a7a7a] leading-[24px] max-w-[640px] mt-[7px]">{{ t('visit-country.train.text')
+            <p class="text-[13px] text-[#7a7a7a] leading-[24px]  mt-[7px]">{{ t('visit-country.train.text')
             }}</p>
           </div>
         </div>
         <div class="mt-[30px] ml-[15px] flex gap-[35px]">
           <img src="./assets/images/plane.png" class="max-w-[294px] rounded-[20px]" alt="">
           <div>
-            <h1 class="text-[30px] max-w-[600px] leading-[1.1]">{{ t('visit-country.plane.title') }}</h1>
+            <h1 class="text-[30px] leading-[1.1]">{{ t('visit-country.plane.title') }}</h1>
             <h2 class="text-[14px] mt-[7px] text-[#2c343b]">{{ t('visit-country.plane.title2') }}</h2>
-            <p class="text-[13px] text-[#7a7a7a] leading-[24px] max-w-[630px] mt-[7px]">{{ t('visit-country.plane.text')
+            <p class="text-[13px] text-[#7a7a7a]  leading-[24px] mt-[7px]">{{ t('visit-country.plane.text')
             }}</p>
           </div>
         </div>
@@ -154,7 +157,7 @@
           <div>
             <h1 class="text-[30px] ml-[15px] leading-[1.1]">{{ t('visit-country.dubai.title') }}</h1>
             <h2 class="text-[14px] text-[#2c343b] mt-[7px]">{{ t('visit-country.dubai.title2') }}</h2>
-            <p class="text-[13px] text-[#7a7a7a] leading-[24px] max-w-[630px] mt-[7px]">{{ t('visit-country.dubai.text')
+            <p class="text-[13px] text-[#7a7a7a] leading-[24px] mt-[7px]">{{ t('visit-country.dubai.text')
             }}</p>
           </div>
         </div>
@@ -189,13 +192,13 @@
     </section>
 
     <section id="Featured-places" class="pt-[80px]">
-      <div class="w-full h-full bg-[#f4f4f4] pt-[80px] pb-[80px] px-[10%]">
+      <div id="all" class="w-full h-full bg-[#f4f4f4] pt-[80px] pb-[80px] px-[10%]">
         <div class="max-w-[1170px] text-center">
           <h1 class="text-[17px] text-[#e1ac0c] block ">{{ t('featured-places.title') }}</h1>
           <h2 class="text-[23px] text-[#232323] mt-[12px]">{{ t('featured-places.title2') }}</h2>
         </div>
-        <div class="mt-[60px] flex gap-[33.3px]">
-          <div class="w-[33.3%] bg-white h-full shadow-[0_4px_12px_rgba(0,0,0,0.15)] rounded-[5px]">
+        <div id="card-wrap" class="mt-[60px] flex justify-center gap-[33.3px]">
+          <div class="w-[360px] bg-white h-full shadow-[0_4px_12px_rgba(0,0,0,0.15)] rounded-[5px]">
             <div class="relative">
               <img src="./assets/images/dubai.png" class="rounded-tl-[5px] rounded-tr-[5px]" alt="">
               <div class="absolute left-[30px] top-[30px] flex gap-[3px]">
@@ -221,7 +224,7 @@
                   t('featured-places.button2') }}</a>
             </div>
           </div>
-          <div class="w-[33.3%] bg-white h-full shadow-[0_4px_12px_rgba(0,0,0,0.15)] rounded-[5px]">
+          <div class="w-[360px] bg-white h-full shadow-[0_4px_12px_rgba(0,0,0,0.15)] rounded-[5px]">
             <div class="relative">
               <img src="./assets/images/istanbul.png" class="rounded-tl-[5px] rounded-tr-[5px]" alt="">
               <div class="absolute left-[30px] top-[30px] flex gap-[3px]">
@@ -247,7 +250,7 @@
                   t('featured-places.button2') }}</a>
             </div>
           </div>
-          <div class="w-[33.3%] bg-white h-full shadow-[0_4px_12px_rgba(0,0,0,0.15)] rounded-[5px]">
+          <div class="w-[360px] bg-white h-full shadow-[0_4px_12px_rgba(0,0,0,0.15)] rounded-[5px]">
             <div class="relative">
               <img src="./assets/images/sharm2.png" class="rounded-tl-[5px] rounded-tr-[5px]" alt="">
               <div class="absolute left-[30px] top-[30px] flex gap-[3px]">
@@ -277,12 +280,13 @@
       </div>
     </section>
 
-    <section id="Services" class="w-full px-[10%] pt-[80px] box-border">
-      <div class="text-center">
-        <h1 class="text-[17px] text-[#e1ac0c]">{{ t('services.title') }}</h1>
-        <h2 class="text-[23px] mt-[14px] tracking-[0.5px]">{{ t('services.title2') }}</h2>
-      </div>
-      <div class="mt-[60px] flex gap-[33.3px]">
+    <section id="Services" class="w-full pt-[80px] box-border">
+      <div id="all" class="w-full px-[10%]">
+        <div class="text-center">
+          <h1 class="text-[17px] text-[#e1ac0c]">{{ t('services.title') }}</h1>
+          <h2 class="text-[23px] mt-[14px] tracking-[0.5px]">{{ t('services.title2') }}</h2>
+        </div>
+      <div id="card-wrap" class="mt-[60px] flex gap-[33.3px]">
         <div class="max-w-[31%] border border-[#ddd] py-[50px] px-[30px] rounded-[10px]">
           <div class="text-center">
             <div class="flex justify-center items-center">
@@ -302,7 +306,7 @@
           </div>
         </div>
         <div class="max-w-[31%] border border-[#ddd] py-[50px] px-[30px] rounded-[10px]">
-          <div class="text-center">
+          <div id="Accordion" class="text-center">
             <div class="flex justify-center items-center">
               <img src="./assets/images/service_icon_3.png" alt="">
             </div>
@@ -340,24 +344,23 @@
           </div>
         </div>
       </div>
+      </div>
     </section>
 
-    <section id="video" class="mt-[-500px] mb-[-500px]">
-      <!-- <div class="video-overlay"></div> -->
+    <!-- <section id="video" class="mt-[-500px] mb-[-500px]">
+      <div class="video-overlay"></div>
       <div class="video">
         <div>
-          <!-- <h1 style="color: white;">Our one of the best destinations</h1> -->
-          <!-- <h2>Sed et risus ac sapien congue mattis.</h2> -->
-          <!-- <a href="http://youtube.com" target="_blank"><i class="fa fa-play"></i></a> -->
+          <a href="http://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
         </div>
       </div>
       <video autoplay="" loop="" muted="" class="w-full rotate-270">
         <source src="./assets/Flying_Over_Tashkent_at_Night_4K_Drone_Tour_of_Uzbekistan_s.mp4" type="video/mp4">
       </video>
-    </section>
+    </section> -->
 
-    <section id="Parcing-tables" class="box-border">
-      <div class="w-full px-[10%]">
+    <section id="Parcing-tables" class="box-border mt-[100px]">
+      <div id="all" class="w-full px-[10%]">
         <div class="text-center">
           <h1 class="text-[17px] text-[#e1ac0c]">{{ t('parcing.title') }}</h1>
           <h2 class="mt-[14px] text-[23px] tracking-[0.5px]">{{ t('parcing.title2') }}</h2>
@@ -412,6 +415,7 @@
                 <h1 class="mb-[20px]"><a href="#" class="text-[14px] font-semibold transition-all hover:text-[#e1ac0c]">{{ t('parcing.vip.title4') }}</a></h1>
                 <h1 class="mb-[20px]"><a href="#" class="text-[14px] font-semibold transition-all hover:text-[#e1ac0c]">{{ t('parcing.vip.title5') }}</a></h1>
                 <h1 class="mb-[20px]"><a href="#" class="text-[14px] font-semibold transition-all hover:text-[#e1ac0c]">{{ t('parcing.vip.title6') }}</a></h1>
+                <h1 class="mb-[20px]"><a href="#" class="text-[14px] font-semibold transition-all hover:text-[#e1ac0c]">{{ t('parcing.vip.title7') }}</a></h1>
                 <h1 class="mb-[20px]"><a href="#" class="text-[14px] font-semibold transition-all hover:text-[#e1ac0c]">{{ t('parcing.vip.title8') }}</a></h1>
               </div>
               <div class="mt-[35px] cursor-pointer"><a href="tel:+998 93 893 67 07"
@@ -425,13 +429,13 @@
     </section>
 
     <section id="map">
-      <GMapMap
+      <!-- <GMapMap
         :center="{ lat: 41.2995, lng: 69.2401 }"
         :zoom="12"
         style="width: 100%; height: 400px"
       >
         <GMapMarker :position="{ lat: 41.2995, lng: 69.2401 }" />
-      </GMapMap>
+      </GMapMap> -->
       <!-- <GoogleMap
         api-key="YOUR_GOOGLE_MAPS_API_KEY"
         style="width: 100%; height: 500px"
@@ -441,6 +445,50 @@
           <Marker :options="{ position: center }" />
         </GoogleMap> -->
     </section>
+
+    <section id="Bron" class="mt-[60px]">
+      <div class="w-full px-[10%] text-center">
+        <h1 class="text-[17px] text-[#e1ac0c]">{{ t('bron.title') }}</h1>
+        <h1 class="text-[23px] tracking-[0.5px] mt-[14px]">{{ t('bron.title2') }}</h1>
+        <h1 class="text-[18px] mt-[20px] mb-[10px]">{{ t('bron.direktor') }}</h1>
+        <a href="tel: +998938936707" class="text-[#e1ac0c] text-[23px] font-semibold tracking-[0.5px]">{{ t('bron.number') }}</a><br>
+        <div class="mt-[25px] cursor-pointer">
+          <button class="bg-[#e1ac0c] text-white text-[15px] border-[2px] border-[#e1ac0c] px-[16px] py-[14px] hover:bg-transparent hover:text-[#e1ac0c]" @click="OpenModal">{{t('bron.button') }}</button>
+        </div>
+      </div>
+    </section>
+
+    <AppModal ref="openModal"/>
+    <hr class="my-[70px] border-t-[1px] border-[#ddd]">
+    <footer>
+      <div id="all" class="w-full px-[10%] pb-[80px] flex f-card">
+        <div class="max-w-[48%]">
+          <div class="flex justify-center">
+            <img src="./assets/images/Screenshot 2025-06-21 at 21.35.40.png" class="w-[200px]" alt="">
+          </div>
+          <p class="text-[13px] text-[#7a7a7a] leading-[24px] mt-[25px] mb-[20px]">{{ t('footer.title') }}</p>
+          <a href="https://instagram.com/ogabek_ibragimov7"><svg-icon type="mdi" :path="mdiInstagram" class="w-[40px] h-[40px] rounded-[50%] text-white bg-[#cdcdcd] p-[5px]"></svg-icon></a>
+        </div>
+        <div id="f-card" class="w-[390px] mr-[20px]">
+          <h1 class="text-[21px] mt-[10px] mb-[40px] tracking-[0.5px]">{{ t('footer.card.title') }}</h1>
+          <a href="#" class="flex text-[15px] text-[#7a7a7a] hover:text-[#e1ac0c] mb-[12px]"><svg-icon type="mdi" :path="mdiSquareMedium" class="text-[#e1ac0c]"></svg-icon> {{ t('footer.card.title1') }}</a>
+          <a href="#" class="flex text-[15px] text-[#7a7a7a] hover:text-[#e1ac0c] mb-[12px]"><svg-icon type="mdi" :path="mdiSquareMedium" class="text-[#e1ac0c]"></svg-icon> {{ t('footer.card.title2') }}</a>
+          <a href="#" class="flex text-[15px] text-[#7a7a7a] hover:text-[#e1ac0c] mb-[12px]"><svg-icon type="mdi" :path="mdiSquareMedium" class="text-[#e1ac0c]"></svg-icon> {{ t('footer.card.title3') }}</a>
+          <a href="#" class="flex text-[15px] text-[#7a7a7a] hover:text-[#e1ac0c] mb-[12px]"><svg-icon type="mdi" :path="mdiSquareMedium" class="text-[#e1ac0c]"></svg-icon> {{ t('footer.card.title4') }}</a>
+        </div>
+        <div class="w-[30%] f-card2">
+         <div>
+          <h1 class="text-[21px] mt-[10px] mb-[40px] tracking-[0.5px]">{{ t('footer.card2.title') }}</h1>
+          <p href="#" class="flex text-[13px] leading-[24px] text-[#7a7a7a]"> {{ t('footer.card2.text') }}</p>
+         </div>
+          <div>
+            <a href="tel: +998938936707" class="flex mt-[25px] text-[15px] text-[#7a7a7a]"> {{ t('footer.card2.tel-number') }} <span class="ml-[30px] text-[#e1ac0c]">+998938936707</span></a>
+          <a href="mailto:ogabekibragimov20@gmail.com" class="flex my-[10px] text-[15px] text-[#7a7a7a]"> {{ t('footer.card2.email') }} <span class="ml-[44px] text-[#e1ac0c]">ogabekibragimov20@gmail.com</span></a>
+          <a href="#" class="flex my-[10px] text-[15px] text-[#7a7a7a]"> {{ t('footer.card2.address') }} <span class="ml-[36px] text-[#e1ac0c]">{{ t('footer.card2.address2') }}</span></a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -450,11 +498,12 @@ import { ref, watch, computed, onMounted, onBeforeUnmount } from 'vue'
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Pagination } from 'swiper/modules'
 import SvgIcon from '@jamescoyle/vue-icon'
-import { mdiStar } from '@mdi/js'
+import { mdiStar, mdiInstagram, mdiSquareMedium } from '@mdi/js'
+import AppModal from './views/AppModal.vue';
 
-import { GoogleMap, Marker } from 'vue3-google-map'
+// import { GoogleMap, Marker } from 'vue3-google-map'
 
-const center = { lat: 40.689247, lng: -74.044502 }
+// const center = { lat: 40.689247, lng: -74.044502 }
 
 import 'swiper/css'
 import 'swiper/css/pagination'
@@ -463,7 +512,12 @@ const { t, locale } = useI18n()
 const lang = ref(locale.value)
 const show = ref(false)
 const dropdownRef = ref(null)
+// const dialog = ref(false)
+const openModal = ref('')
 
+const OpenModal = () => {
+  openModal.value.openModal()
+}
 
 import uzFlag from './assets/images/uz.png'
 import enFlag from './assets/images/en.png'
@@ -474,7 +528,8 @@ const flags = {
   en: enFlag,
   ru: ruFlag
 }
-console.log(t('services.planid.guides.title'));
+// console.log(t('services.planid.guides.title'));
+
 const items = computed(() => [
 {
     title: t('services.planid.guides.title'),
@@ -505,6 +560,23 @@ const swiperOptions = {
   pagination: {
     clickable: true,
   },
+  breakpoints: {
+    1280: {
+      slidesPerView: 5,
+    },
+    1024: {
+      slidesPerView: 4,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    640: {
+      slidesPerView: 2,
+    },
+    0: {
+      slidesPerView: 1,
+    }
+  }
 }
 
 const toggleDropdown = () => {
@@ -545,28 +617,67 @@ watch(lang, (val) => {
 .img {
   background-image: url('./assets/images/dubai2.png');
 }
-
-/* .swiper-pagination {
-  position: static !important;
-  margin-top: 20px;
-  text-align: center;
-  color: #e1ac0c;
-} */
+@media (max-width: 1200px) {
+    #form {
+        width: 780px;
+    }
+}
+@media (max-width: 1100px) {
+    #all {
+      padding: 40px;
+    }
+    header {
+      padding: 40px;
+    }
+}
+@media (max-width: 1000px) {
+    #navbar {
+      display: none;
+    }
+    #nav {
+      display: block;
+      margin-left: 50%;
+    }
+    #f-card {
+      width: 200px;
+    }
+}
+@media (max-width: 965px) {
+    .f-card {
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .f-card2 {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      gap: 40px;
+      p {
+        width: 90%;
+      }
+    }
+    #card-wrap {
+      /* justify-content: center;
+      flex-wrap: wrap;
+      width: 100%; */
+      /* font-size: ; */
+    }
+}
+@media (max-width: 850px) {
+  #all {
+      padding: 40px;
+    }
+}
 .swiper {
   padding-bottom: 70px;
-  /* Paginatsiya uchun pastda joy ajratamiz */
 }
-
 ::v-deep(.swiper-pagination-bullet) {
   background-color: #cdcdcd;
-  /* oddiy nuqta rangi */
   width: 15px;
   height: 15px;
   opacity: 1;
-  /* defaultda 0.2 bo'lishi mumkin */
 }
-
-/* Aktiv (bosilgan) nuqta uchun */
 ::v-deep(.swiper-pagination-bullet-active) {
   background-color: #e1ac0c;
   width: 15px;
