@@ -44,12 +44,12 @@
     </header>
 
     <section id="Banner" class="w-full h-[712px] bg-cover bg-center bg-no-repeat relative img flex justify-center">
-      <div id="form" class="w-[945px] flex justify-center pt-[180px]">
-        <div class="text-start text-white">
+      <div class="flex justify-center pt-[180px] form3">
+        <div id="form" class="text-start max-w-[945px] text-white">
           <div class="h-[246px]">
             <div class="w-[80px] h-[5px] bg-[#e1ac0c] "></div>
             <h1 class="mt-5 text-[42px]">{{ t('banner.title') }}</h1>
-            <p class="mt-5 mb-[35px] text-[22px] w-[90%]">{{ t('banner.subtitle') }}</p>
+            <p class="mt-5 mb-[35px] text-[22px] max-w-[90%]">{{ t('banner.subtitle') }}</p>
             <a href="#Accordion"
               class=" bg-[#e1ac0c] text-white px-6 py-3 font-semibold rounded hover:bg-[#c8960a] transition-all cursor-pointer">
               {{ t('banner.button') }}
@@ -57,9 +57,9 @@
           </div>
 
           <!-- Forma qismi -->
-          <div class=" mt-[199px]">
+          <div class="mt-[199px] form4">
             <div
-              class="w-full bg-white text-gray-500 flex gap-2 px-4 py-4 items-center border-b-[5px] border-[#e1ac0c]">
+              class="w-full bg-white text-gray-500 flex gap-2 px-4 py-4 items-center border-b-[5px] border-[#e1ac0c] form2">
               <input type="text" :placeholder="t('banner.form.name')"
                 class="flex-1 p-3 border rounded outline-none placeholder-gray-500" />
               <input type="text" :placeholder="t('banner.form.address')"
@@ -81,7 +81,7 @@
         <h1 class="text-[#e1ac0c] text-[17px]">{{ t('popular-places.title') }}</h1>
         <p class="text-[#232323] mt-[14px] text-[23px] font-medium">{{ t('popular-places.subtitle') }}</p>
       </div>
-      <div class="w-full px-[15px]">
+      <div class="w-full swiper px-[15px]">
         <Swiper v-bind="swiperOptions"  class="hmySwiper">
           <SwiperSlide class="relative">
             <img src="./assets/images/istanbul.png" class="w-[264px] h-[171.59px] object-cover rounded" />
@@ -134,7 +134,7 @@
         <div class="w-full pt-[20px]">
           <h1 class="text-[30px]">{{ t('visit-country.title') }}</h1>
         </div>
-        <div class="mt-[20px] ml-[15px] flex gap-[35px]">
+        <div class="mt-[20px] ml-[15px] flex gap-[35px] v-c-card">
           <img src="./assets/images/train.png" class="max-w-[294px] rounded-[20px]" alt="">
           <div>
             <h1 class="text-[30px] mt-[10px]">{{ t('visit-country.train.title') }}</h1>
@@ -143,7 +143,7 @@
             }}</p>
           </div>
         </div>
-        <div class="mt-[30px] ml-[15px] flex gap-[35px]">
+        <div class="mt-[30px] ml-[15px] flex gap-[35px] v-c-card">
           <img src="./assets/images/plane.png" class="max-w-[294px] rounded-[20px]" alt="">
           <div>
             <h1 class="text-[30px] leading-[1.1]">{{ t('visit-country.plane.title') }}</h1>
@@ -152,7 +152,7 @@
             }}</p>
           </div>
         </div>
-        <div class="mt-[30px] ml-[15px] flex gap-[35px]">
+        <div class="mt-[30px] ml-[15px] flex gap-[35px] v-c-card">
           <img src="./assets/images/dubai2.png" class="max-w-[294px] rounded-[20px]" alt="">
           <div>
             <h1 class="text-[30px] ml-[15px] leading-[1.1]">{{ t('visit-country.dubai.title') }}</h1>
@@ -161,7 +161,7 @@
             }}</p>
           </div>
         </div>
-        <div class="mt-[30px] ml-[15px] flex gap-[35px]">
+        <div class="mt-[30px] ml-[15px] flex gap-[35px] v-c-card">
           <img src="./assets/images/antalya.png" class="max-w-[294px] rounded-[20px]" alt="">
           <div>
             <h1 class="text-[30px] mt-[18px]">{{ t('visit-country.antalya.title') }}</h1>
@@ -170,7 +170,7 @@
               t('visit-country.antalya.text') }}</p>
           </div>
         </div>
-        <div class="mt-[30px] ml-[15px] flex gap-[35px]">
+        <div class="mt-[30px] ml-[15px] flex gap-[35px] v-c-card">
           <img src="./assets/images/sharm.png" class="max-w-[294px] rounded-[20px]" alt="">
           <div>
             <h1 class="text-[30px] mt-[18px]">{{ t('visit-country.sharm.title') }}</h1>
@@ -179,7 +179,7 @@
             }}</p>
           </div>
         </div>
-        <div class="mt-[30px] ml-[15px] flex gap-[35px]">
+        <div class="mt-[30px] ml-[15px] flex gap-[35px] v-c-card">
           <img src="./assets/images/istanbul2.png" class="max-w-[294px] rounded-[20px]" alt="">
           <div>
             <h1 class="text-[30px] mt-[18px]">{{ t('visit-country.istanbul.title') }}</h1>
@@ -197,7 +197,7 @@
           <h1 class="text-[17px] text-[#e1ac0c] block ">{{ t('featured-places.title') }}</h1>
           <h2 class="text-[23px] text-[#232323] mt-[12px]">{{ t('featured-places.title2') }}</h2>
         </div>
-        <div id="card-wrap" class="mt-[60px] flex justify-center gap-[33.3px]">
+        <div id="card-wrap" class="mt-[60px] flex justify-center gap-[33.3px] f-card3">
           <div class="w-[360px] bg-white h-full shadow-[0_4px_12px_rgba(0,0,0,0.15)] rounded-[5px]">
             <div class="relative">
               <img src="./assets/images/dubai.png" class="rounded-tl-[5px] rounded-tr-[5px]" alt="">
@@ -286,8 +286,8 @@
           <h1 class="text-[17px] text-[#e1ac0c]">{{ t('services.title') }}</h1>
           <h2 class="text-[23px] mt-[14px] tracking-[0.5px]">{{ t('services.title2') }}</h2>
         </div>
-      <div id="card-wrap" class="mt-[60px] flex gap-[33.3px]">
-        <div class="max-w-[31%] border border-[#ddd] py-[50px] px-[30px] rounded-[10px]">
+      <div id="card-wrap" class="mt-[60px] flex gap-[33.3px] f-card3">
+        <div class="max-w-[31%] s-card border border-[#ddd] py-[50px] px-[30px] rounded-[10px]">
           <div class="text-center">
             <div class="flex justify-center items-center">
               <img src="./assets/images/service_icon.png" alt="">
@@ -296,7 +296,7 @@
             <p class="text-[13px] text-[#7a7a7a] leading-[24px]">{{ t('services.travel.text') }}</p>
           </div>
         </div>
-        <div class="max-w-[31%] border border-[#ddd] py-[50px] px-[30px] rounded-[10px]">
+        <div class="max-w-[31%] s-card border border-[#ddd] py-[50px] px-[30px] rounded-[10px]">
           <div class="text-center">
             <div class="flex justify-center items-center">
               <img src="./assets/images/service_icon_2.png" alt="">
@@ -305,7 +305,7 @@
             <p class="text-[13px] text-[#7a7a7a] leading-[24px]">{{ t('services.route.text') }}</p>
           </div>
         </div>
-        <div class="max-w-[31%] border border-[#ddd] py-[50px] px-[30px] rounded-[10px]">
+        <div class="max-w-[31%] s-card border border-[#ddd] py-[50px] px-[30px] rounded-[10px]">
           <div id="Accordion" class="text-center">
             <div class="flex justify-center items-center">
               <img src="./assets/images/service_icon_3.png" alt="">
@@ -318,15 +318,15 @@
       <div class="w-[99.2%]">
         <div class="my-[60px] border-t-[1px] border-[#ddd]"></div>
       </div>
-      <div class="flex justify-center gap-[30px]">
-        <div class="w-[43%]">
+      <div class="flex justify-center gap-[30px] s-accordion">
+        <div class="w-[43%] s-card2">
           <h1 class="text-[19px] font-medium mb-[25px]">{{ t('services.planid.title') }}</h1>
           <p class="text-[13px] text-[#7a7a7a] leading-[24px]">{{ t('services.planid.text') }}</p>
           <div class="mt-[35px] cursor-pointer"><a href="tel:+998 93 893 67 07"
               class="bg-[#e1ac0c] text-white text-[15px] border-[2px] border-[#e1ac0c] px-[16px] py-[14px] hover:bg-white hover:text-[#e1ac0c]">{{
                 t('services.planid.button') }}</a></div>
         </div>
-        <div class="w-[43%]">
+        <div class="w-[43%] s-card2">
           <div class="w-full max-w-xl mx-auto mt-8">
             <div v-for="(item, index) in items" :key="index" class="border border-gray-300 rounded">
               <!-- Accordion Header -->
@@ -365,8 +365,8 @@
           <h1 class="text-[17px] text-[#e1ac0c]">{{ t('parcing.title') }}</h1>
           <h2 class="mt-[14px] text-[23px] tracking-[0.5px]">{{ t('parcing.title2') }}</h2>
         </div>
-        <div class="flex gap-[30px] mt-[40px]">
-          <div class="w-[43%]">
+        <div class="flex gap-[30px] mt-[40px] f-card3">
+          <div class="w-[43%] p-t-card">
             <div class="w-full rounded-tl-[10px] rounded-tr-[10px] bg-[#e1ac0c] py-[30px] px-[35px] text-white text-center">
               <h1 class="text-[19px] tracking-[0.5px]">{{ t('parcing.standart.title') }}</h1>
               <h1 class="text-[32px] leading-[1.1] font-bold tracking-[0.5px] mt-[17px] mb-[10px]">{{ t('parcing.standart.title2') }}</h1>
@@ -385,7 +385,7 @@
                 t('services.planid.button') }}</a></div>
             </div>
           </div>
-          <div class="w-[43%]">
+          <div class="w-[43%] p-t-card">
             <div class="w-full rounded-tl-[10px] rounded-tr-[10px] bg-[#e1ac0c] py-[30px] px-[35px] text-white text-center">
               <h1 class="text-[19px] tracking-[0.5px]">{{ t('parcing.premuim.title') }}</h1>
               <h1 class="text-[32px] leading-[1.1] font-bold tracking-[0.5px] mt-[17px] mb-[10px]">{{ t('parcing.premuim.title2') }}</h1>
@@ -404,7 +404,7 @@
                 t('services.planid.button') }}</a></div>
             </div>
           </div>
-          <div class="w-[43%]">
+          <div class="w-[43%] p-t-card">
             <div class="w-full rounded-tl-[10px] rounded-tr-[10px] bg-[#e1ac0c] py-[30px] px-[35px] text-white text-center">
               <h1 class="text-[19px] tracking-[0.5px]">{{ t('parcing.vip.title') }}</h1>
               <h1 class="text-[32px] leading-[1.1] font-bold tracking-[0.5px] mt-[17px] mb-[10px]">{{ t('parcing.vip.title2') }}</h1>
@@ -660,17 +660,86 @@ watch(lang, (val) => {
         width: 90%;
       }
     }
-    #card-wrap {
-      /* justify-content: center;
+}
+@media (max-width: 900px) {
+    .f-card3 {
       flex-wrap: wrap;
-      width: 100%; */
-      /* font-size: ; */
+      justify-content: center;
+    }
+    .s-card {
+      max-width: 40%;
     }
 }
 @media (max-width: 850px) {
   #all {
       padding: 40px;
     }
+  #form {
+    max-width: 600px;
+  }
+  .form2 {
+    max-width: 600px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .form3 {
+    padding-top: 122px;
+  }
+}
+@media (max-width: 650px) {
+  #all {
+      padding: 20px;
+    }
+  .form3 {
+    padding-top: 64px;
+  }
+  #form {
+    max-width: 400px;
+  }
+  .swiper {
+    padding: 20px 80px 0px 80px;
+  }
+  #header {
+    width: 150px;
+  }
+  header {
+    justify-content: center;
+    padding: 0px 1%;
+  }
+  .v-c-card {
+    flex-wrap: wrap;
+    gap: 15px;
+    img{
+      max-width: 400px;
+      margin: 0px;
+    }
+  }
+  .f-card3 {
+    gap: 15px;
+  }
+  .s-card {
+    max-width: 80%;
+  }
+  .s-accordion {
+    flex-wrap: wrap;
+  }
+  .s-card2 {
+    width: 80%;
+  }
+  .p-t-card {
+    width: 80%;
+  }
+  /* #all {
+      padding: 40px;
+    }
+  #form {
+    max-width: 400px;
+  }
+  .form2 {
+    max-width: 400px;
+    flex-wrap: wrap;
+    justify-content: center;
+  } */
 }
 .swiper {
   padding-bottom: 70px;
