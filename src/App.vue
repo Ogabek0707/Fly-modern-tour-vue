@@ -485,9 +485,9 @@
           <p href="#" class="flex text-[13px] leading-[24px] text-[#7a7a7a]"> {{ t('footer.card2.text') }}</p>
          </div>
           <div>
-            <a href="tel: +998938936707" class="flex mt-[25px] text-[15px] text-[#7a7a7a]"> {{ t('footer.card2.tel-number') }} <span class="ml-[30px] text-[#e1ac0c]">+998938936707</span></a>
-            <a href="mailto:ogabekibragimov20@gmail.com" class="flex my-[10px] text-[15px] text-[#7a7a7a]"> {{ t('footer.card2.email') }} <span class="ml-[44px] text-[#e1ac0c]">ogabekibragimov20@gmail.com</span></a>
-            <a href="#" class="flex my-[10px] text-[15px] text-[#7a7a7a]"> {{ t('footer.card2.address') }} <span class="ml-[36px] text-[#e1ac0c]">{{ t('footer.card2.address2') }}</span></a>
+            <a href="tel: +998938936707" class="flex mt-[25px] text-[15px] text-[#7a7a7a]"> {{ t('footer.card2.tel-number') }} <span class="ml-[30px] text-[#e1ac0c] foot">+998938936707</span></a>
+            <a href="mailto:ogabekibragimov20@gmail.com" class="flex my-[10px] text-[15px] text-[#7a7a7a]"> {{ t('footer.card2.email') }} <span class="ml-[44px] text-[#e1ac0c] foot2">ogabekibragimov20@gmail.com</span></a>
+            <a href="#" class="flex my-[10px] text-[15px] text-[#7a7a7a]"> {{ t('footer.card2.address') }} <span class="ml-[36px] text-[#e1ac0c] foot3">{{ t('footer.card2.address2') }}</span></a>
           </div>
         </div>
       </div>
@@ -996,7 +996,7 @@ watch(lang, (val) => {
       margin-right: -20px;
     }
     .swiper {
-      padding: 0px 0px 0px 15px;
+      padding: 0px 0px 0px 10px;
       margin-right: 0px;
     }
   }
@@ -1046,6 +1046,126 @@ watch(lang, (val) => {
   /* .p-t-card {
     width: 80%;
   } */
+  /* .f-card2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 10px;
+    p {
+      width: 90%;
+    }
+  } */
+  /* .f-card {
+    gap: 10px;
+  } */
+  hr {
+    margin: 10px 0px;
+  }
+}
+@media (max-width: 310px) {
+  .foot {
+    margin-left: 10px;
+  }
+  .foot2 {
+    margin-left: 10px;
+  }
+  .foot3 {
+    margin-left: 10px;
+  }
+  /* #all {
+      padding: 20px;
+    } */
+  /* .form4 {
+    margin-top: 81px;
+  } */
+  /* #header {
+    width: 120px;
+  } */
+  header {
+    justify-content: start;
+    padding: 0px 0px 0px 6%;
+    height: 100px;
+  }
+  /* #Banner {
+    justify-content: center;
+    height: 650px;
+  } */
+  #form {
+    max-width: 250px;
+    h1 {
+      font-size: 22px;
+    }
+    p {
+      font-size: 16px;
+    }
+    .b-date {
+      width: 100%;
+    }
+  }
+  #Popular-places {
+    /* height: 310px;
+    padding-top: 40px; */
+    /* .p-p-title {
+      p {
+        font-size: 17px;
+      }
+    } */
+    SwiperSlide {
+      margin-right: -20px;
+    }
+    .swiper {
+      padding: 0px 0px 0px 10px;
+      margin-right: 0px;
+    }
+  }
+  #Visit-country {
+    .v-c-title {
+      h1 {
+        margin-top: 0;
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+    .v-c-card {
+      /* flex-wrap: wrap;
+      gap: 0px;
+      text-align: center; */
+      img{
+        max-width: 220px;
+        margin: 0px;
+      }
+      h1 {
+        margin-top: 12px;
+        font-size: 20px;
+      }
+    }
+  }
+  /* #Featured-places {
+    margin-top: 20px;
+    padding-top: 20px;
+  } */
+  /* #Services {
+    padding-top: 20px;
+    .s-card {
+      max-width: 90%;
+    }
+  } */
+  /* #Parcing-tables {
+    margin-top: 20px;
+  } */
+  /* .f-card3 {
+    gap: 15px;
+  } */
+  /* .s-accordion {
+    flex-wrap: wrap;
+  } */
+  .s-card2 {
+    width: 90%;
+  }
+  .p-t-card {
+    width: 90%;
+  }
   /* .f-card2 {
     display: flex;
     justify-content: center;
