@@ -65,9 +65,9 @@
               <input type="text" :placeholder="t('banner.form.address')"
                 class="flex-1 p-3 border rounded outline-none placeholder-gray-500" />
               <input type="date" placeholder="22/07/2025"
-                class="p-3 border rounded outline-none placeholder-gray-500" />
+                class="p-3 border rounded outline-none placeholder-gray-500 b-date" />
               <button
-                class="bg-[#e1ac0c] text-white px-5 py-3 rounded hover:bg-[#c8960a] transition-all cursor-pointer">
+                class="bg-[#e1ac0c] text-white px-5 py-3 rounded hover:bg-[#c8960a] transition-all cursor-pointer b-date">
                 {{ t('banner.form.button') }}
               </button>
             </div>
@@ -77,49 +77,49 @@
     </section>
 
     <section id="Popular-places" class="h-[440px] pt-[80px]">
-      <div class="text-center h-[123px]">
+      <div class="text-center h-[123px] p-p-title">
         <h1 class="text-[#e1ac0c] text-[17px]">{{ t('popular-places.title') }}</h1>
         <p class="text-[#232323] mt-[14px] text-[23px] font-medium">{{ t('popular-places.subtitle') }}</p>
       </div>
       <div class="w-full swiper px-[15px]">
         <Swiper v-bind="swiperOptions"  class="hmySwiper">
-          <SwiperSlide class="relative">
-            <img src="./assets/images/istanbul.png" class="w-[264px] h-[171.59px] object-cover rounded" />
+          <SwiperSlide class="relative mr-0">
+            <img src="./assets/images/istanbul.png" class=" h-[171.59px] object-cover rounded" />
             <div class="absolute bottom-[20px] left-[18px] text-white text-lg">
               <h1 class="text-[19px] font-medium">{{ t('popular-places.istanbul.title') }}</h1>
               <p class="text-[13px] font-light">{{ t('popular-places.istanbul.text') }}</p>
             </div>
           </SwiperSlide>
-          <SwiperSlide class="relative">
-            <img src="./assets/images/sharm.png" class="w-[264px] h-[171.59px] object-cover rounded" />
+          <SwiperSlide class="relative mr-0">
+            <img src="./assets/images/sharm.png" class=" h-[171.59px] object-cover rounded" />
             <div class="absolute bottom-[20px] left-[18px] text-white text-lg">
               <h1 class="text-[19px] font-medium">{{ t('popular-places.sharm.title') }}</h1>
               <p class="text-[13px] font-light">{{ t('popular-places.sharm.text') }}</p>
             </div>
           </SwiperSlide>
-          <SwiperSlide class="relative">
+          <SwiperSlide class="relative mr-0">
             <img src="./assets/images/Tailand.png" class=" h-[171.59px] object-cover rounded" />
             <div class="absolute bottom-[20px] left-[18px] text-white text-lg">
               <h1 class="text-[19px] font-medium">{{ t('popular-places.tailand.title') }}</h1>
               <p class="text-[13px] font-light">{{ t('popular-places.tailand.text') }}</p>
             </div>
           </SwiperSlide>
-          <SwiperSlide class="relative">
+          <SwiperSlide class="relative mr-0">
             <img src="./assets/images/Argentina.png" class="h-[171.59px] object-cover rounded" />
             <div class="absolute bottom-[20px] left-[18px] text-white text-lg">
               <h1 class="text-[19px] font-medium">{{ t('popular-places.argentina.title') }}</h1>
               <p class="text-[13px] font-light">{{ t('popular-places.argentina.text') }}</p>
             </div>
           </SwiperSlide>
-          <SwiperSlide class="relative">
+          <SwiperSlide class="relative mr-0">
             <img src="./assets/images/dubai2.png" class=" h-[171.59px] object-cover rounded" />
             <div class="absolute bottom-[20px] left-[18px] text-white text-lg">
               <h1 class="text-[19px] font-medium">{{ t('popular-places.dubai.title') }}</h1>
               <p class="text-[13px] font-light">{{ t('popular-places.dubai.text') }}</p>
             </div>
           </SwiperSlide>
-          <SwiperSlide class="relative">
-            <img src="./assets/images/saudi.png" class="w-[264px] h-[171.59px] object-cover rounded" />
+          <SwiperSlide class="relative mr-0">
+            <img src="./assets/images/saudi.png" class=" h-[171.59px] object-cover rounded" />
             <div class="absolute bottom-[20px] left-[18px] text-white text-lg">
               <h1 class="text-[19px] font-medium">{{ t('popular-places.saudi.title') }}</h1>
               <p class="text-[13px] font-light">{{ t('popular-places.saudi.text') }}</p>
@@ -131,7 +131,7 @@
 
     <section id="Visit-country" class="pt-[30px] mb-[30px]">
       <div id="all" class="w-full px-[10%]">
-        <div class="w-full pt-[20px]">
+        <div class="w-full pt-[20px] v-c-title">
           <h1 class="text-[30px]">{{ t('visit-country.title') }}</h1>
         </div>
         <div class="mt-[20px] ml-[15px] flex gap-[35px] v-c-card">
@@ -486,8 +486,8 @@
          </div>
           <div>
             <a href="tel: +998938936707" class="flex mt-[25px] text-[15px] text-[#7a7a7a]"> {{ t('footer.card2.tel-number') }} <span class="ml-[30px] text-[#e1ac0c]">+998938936707</span></a>
-          <a href="mailto:ogabekibragimov20@gmail.com" class="flex my-[10px] text-[15px] text-[#7a7a7a]"> {{ t('footer.card2.email') }} <span class="ml-[44px] text-[#e1ac0c]">ogabekibragimov20@gmail.com</span></a>
-          <a href="#" class="flex my-[10px] text-[15px] text-[#7a7a7a]"> {{ t('footer.card2.address') }} <span class="ml-[36px] text-[#e1ac0c]">{{ t('footer.card2.address2') }}</span></a>
+            <a href="mailto:ogabekibragimov20@gmail.com" class="flex my-[10px] text-[15px] text-[#7a7a7a]"> {{ t('footer.card2.email') }} <span class="ml-[44px] text-[#e1ac0c]">ogabekibragimov20@gmail.com</span></a>
+            <a href="#" class="flex my-[10px] text-[15px] text-[#7a7a7a]"> {{ t('footer.card2.address') }} <span class="ml-[36px] text-[#e1ac0c]">{{ t('footer.card2.address2') }}</span></a>
           </div>
         </div>
       </div>
@@ -729,16 +729,338 @@ watch(lang, (val) => {
   .p-t-card {
     width: 80%;
   }
-  /* #all {
-      padding: 40px;
+}
+@media (max-width: 450px) {
+  #all {
+      padding: 20px;
     }
-  #form {
-    max-width: 400px;
+  .form4 {
+    margin-top: 81px;
   }
-  .form2 {
-    max-width: 400px;
-    flex-wrap: wrap;
+  .form3 {
+    /* justify-content: start; */
+  }
+  #header {
+    width: 120px;
+  }
+  header {
+    justify-content: start;
+    padding: 0px 0px 0px 20%;
+    height: 100px;
+  }
+  #Banner {
     justify-content: center;
+    height: 650px;
+  }
+  #form {
+    max-width: 290px;
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 20px;
+    }
+    .b-date {
+      width: 100%;
+    }
+  }
+  #Popular-places {
+    height: 310px;
+    padding-top: 40px;
+    .p-p-title {
+      p {
+        font-size: 17px;
+      }
+    }
+    SwiperSlide {
+      margin-right: -20px;
+    }
+    .swiper {
+      padding: 0px 0px 0px 40px;
+      margin-right: 0px;
+    }
+  }
+  #Visit-country {
+    .v-c-title {
+      h1 {
+        font-size: 25px;
+        text-align: center;
+      }
+    }
+    .v-c-card {
+      flex-wrap: wrap;
+      gap: 0px;
+      text-align: center;
+      img{
+        max-width: 350px;
+        margin: 0px;
+      }
+      h1 {
+        margin-top: 12px;
+        font-size: 23px;
+      }
+    }
+  }
+  #Featured-places {
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+  #Services {
+    padding-top: 20px;
+    .s-card {
+      max-width: 90%;
+    }
+  }
+  #Parcing-tables {
+    margin-top: 20px;
+  }
+  .f-card3 {
+    gap: 15px;
+  }
+  .s-accordion {
+    flex-wrap: wrap;
+  }
+  .s-card2 {
+    width: 80%;
+  }
+  .p-t-card {
+    width: 80%;
+  }
+  .f-card2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 10px;
+    p {
+      width: 90%;
+    }
+  }
+  .f-card {
+    gap: 10px;
+  }
+  hr {
+    margin: 20px 0px;
+  }
+}
+@media (max-width: 386px) {
+  /* #all {
+      padding: 20px;
+    } */
+  /* .form4 {
+    margin-top: 81px;
+  } */
+  /* #header {
+    width: 120px;
+  } */
+  /* header {
+    justify-content: start;
+    padding: 0px 0px 0px 20%;
+    height: 100px;
+  } */
+  /* #Banner {
+    justify-content: center;
+    height: 650px;
+  } */
+  /* #form {
+    max-width: 290px;
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 20px;
+    }
+    .b-date {
+      width: 100%;
+    }
+  } */
+  #Popular-places {
+    /* height: 310px;
+    padding-top: 40px; */
+    /* .p-p-title {
+      p {
+        font-size: 17px;
+      }
+    } */
+    SwiperSlide {
+      margin-right: -20px;
+    }
+    .swiper {
+      padding: 0px 0px 0px 20px;
+      margin-right: 0px;
+    }
+  }
+  #Visit-country {
+    /* .v-c-title {
+      h1 {
+        font-size: 25px;
+        text-align: center;
+      }
+    } */
+    .v-c-card {
+      /* flex-wrap: wrap;
+      gap: 0px;
+      text-align: center; */
+      img{
+        max-width: 300px;
+        margin: 0px;
+      }
+      h1 {
+        /* margin-top: 12px;
+        font-size: 23px; */
+      }
+    }
+  }
+  /* #Featured-places {
+    margin-top: 20px;
+    padding-top: 20px;
+  } */
+  /* #Services {
+    padding-top: 20px;
+    .s-card {
+      max-width: 90%;
+    }
+  } */
+  /* #Parcing-tables {
+    margin-top: 20px;
+  } */
+  /* .f-card3 {
+    gap: 15px;
+  } */
+  /* .s-accordion {
+    flex-wrap: wrap;
+  } */
+  /* .s-card2 {
+    width: 80%;
+  } */
+  /* .p-t-card {
+    width: 80%;
+  } */
+  /* .f-card2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 10px;
+    p {
+      width: 90%;
+    }
+  } */
+  /* .f-card {
+    gap: 10px;
+  } */
+  /* hr {
+    margin: 20px 0px;
+  } */
+}
+@media (max-width: 337px) {
+  /* #all {
+      padding: 20px;
+    } */
+  /* .form4 {
+    margin-top: 81px;
+  } */
+  /* #header {
+    width: 120px;
+  } */
+  header {
+    justify-content: start;
+    padding: 0px 0px 0px 10%;
+    height: 100px;
+  }
+  /* #Banner {
+    justify-content: center;
+    height: 650px;
+  } */
+  /* #form {
+    max-width: 290px;
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 20px;
+    }
+    .b-date {
+      width: 100%;
+    }
+  } */
+  #Popular-places {
+    /* height: 310px;
+    padding-top: 40px; */
+    /* .p-p-title {
+      p {
+        font-size: 17px;
+      }
+    } */
+    SwiperSlide {
+      margin-right: -20px;
+    }
+    .swiper {
+      padding: 0px 0px 0px 15px;
+      margin-right: 0px;
+    }
+  }
+  #Visit-country {
+    /* .v-c-title {
+      h1 {
+        font-size: 25px;
+        text-align: center;
+      }
+    } */
+    .v-c-card {
+      /* flex-wrap: wrap;
+      gap: 0px;
+      text-align: center; */
+      img{
+        max-width: 250px;
+        margin: 0px;
+      }
+      h1 {
+        /* margin-top: 12px;
+        font-size: 23px; */
+      }
+    }
+  }
+  /* #Featured-places {
+    margin-top: 20px;
+    padding-top: 20px;
+  } */
+  /* #Services {
+    padding-top: 20px;
+    .s-card {
+      max-width: 90%;
+    }
+  } */
+  /* #Parcing-tables {
+    margin-top: 20px;
+  } */
+  /* .f-card3 {
+    gap: 15px;
+  } */
+  /* .s-accordion {
+    flex-wrap: wrap;
+  } */
+  /* .s-card2 {
+    width: 80%;
+  } */
+  /* .p-t-card {
+    width: 80%;
+  } */
+  /* .f-card2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 10px;
+    p {
+      width: 90%;
+    }
+  } */
+  /* .f-card {
+    gap: 10px;
+  } */
+  /* hr {
+    margin: 20px 0px;
   } */
 }
 .swiper {
